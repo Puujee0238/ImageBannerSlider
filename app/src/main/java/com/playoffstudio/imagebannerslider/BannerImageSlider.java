@@ -39,11 +39,7 @@ public class BannerImageSlider extends AppCompatActivity {
 
         ButterKnife.bind(this);
         jsonCall();
-
-
     }
-
-
 
     public void jsonCall(){
         JsonArrayRequest movieReq = new JsonArrayRequest("http://banglahdnatok.com/change.txt",
@@ -68,6 +64,7 @@ public class BannerImageSlider extends AppCompatActivity {
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
+
 
                         }
 

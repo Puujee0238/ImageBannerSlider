@@ -38,6 +38,7 @@ public class HorizontalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_horizontal);
 
+
         HorizontalAdapter firstAdapter = new HorizontalAdapter(titles);
         MultiSnapRecyclerView firstRecyclerView = (MultiSnapRecyclerView)findViewById(R.id.first_recycler_view);
         LinearLayoutManager firstManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);

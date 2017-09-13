@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 import com.playoffstudio.imagebannerslider.R;
 
+
+
 /**
  * Created by takusemba on 2017/08/03.
  */
