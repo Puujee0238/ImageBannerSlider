@@ -39,7 +39,7 @@ showcase example
 
 
 
-
+```java
 
 public class BannerImageSlider extends AppCompatActivity {
 
@@ -134,6 +134,6 @@ public class BannerImageSlider extends AppCompatActivity {
     }
 }
 
-
+```
 
 
