@@ -10,6 +10,14 @@ showcase example
 
 
 
+```xml
+dependencies {
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.ss.bannerslider:bannerslider:1.8.0'
+}
+```
+
+
 # Json file 
 
 [
