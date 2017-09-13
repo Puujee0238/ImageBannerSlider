@@ -9,6 +9,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.snaprecycleview.HorizontalActivity;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         button_image_slider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this , ImageSlider.class);
+                Intent intent = new Intent(MainActivity.this , HorizontalActivity.class);
                 startActivity(intent);
             }
         });

@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BannerImageSlider" />
-        <activity android:name=".ImageSlider"></activity>
+        <activity android:name="com.snaprecycleview.HorizontalActivity"></activity>
     </application>
 
 </manifest>

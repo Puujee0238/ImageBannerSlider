@@ -41,22 +41,6 @@ public class BannerImageSlider extends AppCompatActivity {
         jsonCall();
 
 
-
-        //add banner using image url
-
-        //Toast.makeText(this, ""+itemList.size(), Toast.LENGTH_SHORT).show();
-
-        /*
-        for (int i=0; i<=itemList.size();i++){
-            Item item = itemList.get(i);
-            banners.add(new RemoteBanner(item.getLink()));
-        }
-*/
-
-        //banners.add(new RemoteBanner("http://www.gettyimages.in/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"));
-        //add banner using resource drawable
-        //banners.add(new DrawableBanner(R.mipmap.ic_launcher));
-
     }
 
 
