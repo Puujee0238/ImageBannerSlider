@@ -7,7 +7,9 @@ showcase example
 <p align="center">
   <img src="https://raw.githubusercontent.com/paveltech/ImageBannerSlider/master/device-2017-09-13-204327.png" height="700" width="390"/>
 </p>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/paveltech/ImageBannerSlider/master/device-2017-09-14-005020.png" height="700" width="390"/>
+</p>
 
 
 ```xml
