@@ -5,7 +5,7 @@ image banner sliding using json
 showcase example
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/paveltech/ImageBannerSlider/master/device-2017-09-13-204327.png" height="800" width="350"/>
+  <img src="https://raw.githubusercontent.com/paveltech/ImageBannerSlider/master/device-2017-09-13-204327.png" height="700" width="390"/>
 </p>
 
 
@@ -32,3 +32,6 @@ showcase example
 	}
 
 ]
+
+
+
