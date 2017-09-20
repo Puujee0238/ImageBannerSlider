@@ -26,10 +26,7 @@ import ss.com.bannerslider.views.BannerSlider;
 
 public class BannerImageSlider extends AppCompatActivity {
 
-
-
     public final List<Item> itemList = new ArrayList<>();
-
     @Bind(R.id.banner_slider1)
     BannerSlider bannerSlider;
     @Override
@@ -48,8 +45,6 @@ public class BannerImageSlider extends AppCompatActivity {
                     public void onResponse(JSONArray response) {
                         Log.d("", response.toString());
 
-
-
                         // Parsing json
                         for (int i = 0; i < response.length(); i++) {
                             try {
@@ -64,8 +59,6 @@ public class BannerImageSlider extends AppCompatActivity {
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
-
-
                         }
 
                         startSlider();

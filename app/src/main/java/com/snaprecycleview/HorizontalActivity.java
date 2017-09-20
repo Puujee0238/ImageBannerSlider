@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 
+import com.github.florent37.materialleanback.MaterialLeanBack;
 import com.playoffstudio.imagebannerslider.R;
 import com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView;
 
@@ -18,21 +19,20 @@ public class HorizontalActivity extends AppCompatActivity {
             "Android",
             "Beta",
             "Cupcake",
-            "Donut",
-            "Eclair",
-            "Froyo",
-            "Gingerbread",
-            "Honeycomb",
-            "Ice Cream Sandwich",
-            "Jelly Bean",
-            "KitKat",
-            "Lollipop",
-            "Marshmallow",
-            "Nougat",
-            "Android O",
+            "Donut"
+
     };
 
 
+    String[] imagess = {
+            "https://www.w3schools.com/w3images/fjords.jpg",
+            "https://www.w3schools.com/w3images/fjords.jpg",
+            "https://www.w3schools.com/w3images/fjords.jpg",
+            "https://www.w3schools.com/w3images/fjords.jpg"
+    };
+
+    MaterialLeanBack materialLeanBack;
+    AnimRecycleViewAdapter animRecycleViewAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,10 +51,10 @@ public class HorizontalActivity extends AppCompatActivity {
         secondRecyclerView.setLayoutManager(secondManager);
         secondRecyclerView.setAdapter(secondAdapter);
 
-        HorizontalAdapter thirdAdapter = new HorizontalAdapter(titles);
-        MultiSnapRecyclerView thirdRecyclerView = (MultiSnapRecyclerView)findViewById(R.id.third_recycler_view);
-        LinearLayoutManager thirdManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
-        thirdRecyclerView.setLayoutManager(thirdManager);
-        thirdRecyclerView.setAdapter(thirdAdapter);
+
+        AnimRecycleViewAdapter adapter = new AnimRecycleViewAdapter(getApplicationContext() , titles , imagess);
+        materialLeanBack = (MaterialLeanBack) findViewById(R.id.materialLeanBack);
+        materialLeanBack.setAdapter(adapter);
+
     }
 }
