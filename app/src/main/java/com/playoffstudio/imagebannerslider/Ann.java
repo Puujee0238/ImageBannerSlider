@@ -95,7 +95,6 @@ public class Ann extends AppCompatActivity {
                 return row != 6;
             }
 
-
             //region customView
             @Override
             public RecyclerView.ViewHolder getCustomViewForRow(ViewGroup viewgroup, int row) {
@@ -139,7 +138,6 @@ public class Ann extends AppCompatActivity {
                 materialLeanBack.smoothScrollTo(5, 6);
             }
         });
-
     }
 
     @Override
