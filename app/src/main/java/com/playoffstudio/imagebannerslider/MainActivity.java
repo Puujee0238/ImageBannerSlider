@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Bind(R.id.button_image_slider)
     Button button_image_slider;
+
+    @Bind(R.id.button_anim)
+    Button button_anim;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +45,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this , HorizontalActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button_anim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this , Ann.class);
                 startActivity(intent);
             }
         });

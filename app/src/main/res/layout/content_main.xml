@@ -32,4 +32,13 @@
         android:layout_below="@+id/button_banner"
         android:layout_centerHorizontal="true"
         android:id="@+id/button_image_slider" />
+
+    <Button
+        android:text="Anim RecycleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_image_slider"
+        android:layout_alignLeft="@+id/button_image_slider"
+        android:layout_alignStart="@+id/button_image_slider"
+        android:id="@+id/button_anim" />
 </RelativeLayout>

@@ -22,7 +22,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".BannerImageSlider" />
-        <activity android:name="com.snaprecycleview.HorizontalActivity"></activity>
+        <activity android:name="com.snaprecycleview.HorizontalActivity" />
+        <activity android:name=".AnimateRecycleActivity" />
+        <activity
+            android:name=".Ann"
+            android:label="@string/title_activity_ann"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
